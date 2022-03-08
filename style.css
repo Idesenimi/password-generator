@@ -1,0 +1,48 @@
+/* Set basic css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ } 
+
+body {
+  background-color: #002;
+  color: #f3f3f3;
+  text-align: center;
+  margin: 30px;
+} 
+
+input {
+  margin: 25px;
+  border: 2px solid rgba(0,255,0,.2);
+  border-radius: 15px;
+  height: 50px;
+  user-select: none;
+  outline: none;
+  text-align: center;
+} 
+
+.green-text {
+  color: green;
+} 
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+.btn {
+  border: none;
+  padding: 10px;
+  color: green;
+  font-weight: bold;
+} 
+
+#copied-El {
+  margin-top : 10px;
+} 
+
+footer {
+  margin-top: 50px;
+} 
